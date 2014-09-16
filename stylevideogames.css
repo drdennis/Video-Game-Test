@@ -1,0 +1,248 @@
+body {
+	background:#fce0a8;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:100%;
+}
+
+
+
+/* ##### HEADER RULES ##### */
+
+header {
+	background:url(images/vgheader.png) no-repeat;
+	border:2px solid #881400;
+	border-bottom:none;
+	color:#fff;
+	height:215px;
+	margin:1em auto 0;
+	max-width:840px;
+}
+
+header h1 {
+	color:#000;
+	display:none;
+	font-size:4em; /* 64px / 16px */
+	margin-top:0.625em;
+	text-align:center;
+}
+
+
+
+/* ##### NAV RULES ##### */
+
+nav, footer {
+	background:#fff;
+	border-left:2px solid #881400;
+	border-right:2px solid #881400;
+	margin:0 auto;
+	max-width:840px;
+	padding-top:1em;
+	text-align:center;
+}
+
+nav li, footer li {
+	display:inline-block;
+	font-family:"Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-size:1.5em; /* 24px / 16px */
+	font-weight:400;
+	line-height:1.2em;
+	padding-right:4%;
+}
+
+
+/* ##### ARTICLE RULES ##### */
+
+article {
+	background:#fff;
+	border-left:2px solid #881400;
+	border-right:2px solid #881400;
+	color:#2b1b17;
+	font-size:0.9em;
+	margin:0 auto 0;
+	max-width:840px;
+	padding:2em 0 0.5em;
+}
+
+article h1, article h2, article h3 {
+	color:#006800;
+	font-family:"Roboto Condensed", Arial, Helvetica, sans-serif;
+	font-weight:400;
+}
+
+article h1 {
+	font-size:2em; /* 32px / 16px */
+	margin:0 0.5em 0.625em; /* 20px / 32px */
+}
+
+article h2, article h3 {
+	font-size:1.5em; /* 24px / 16px */
+	margin:1.5em 0.6666666667em 0.625em; 
+}
+
+article h3 {
+	color:#920082;
+	margin-top:0;
+}
+
+article p, footer p {
+	line-height:1.5em;
+	margin:1em;
+}
+
+article ul {
+	margin-left:4em;
+}
+
+article ul li {
+	line-height:1.5em;
+	list-style-image:url(images/heart.png);
+	margin-bottom:1em;
+	padding-right:10px;
+}
+
+article ul li ul {
+	margin:1em 0 0 3em;
+}
+
+article ul li ul li {
+	list-style-image:url(images/half-heart.png);
+}
+
+
+
+/* ##### FOOTER RULES ##### */
+
+footer {
+	border-bottom:2px solid #881400;
+	margin-bottom:1em;
+}
+
+
+
+/* ############Link Styles############ */
+
+a:link, a:visited {
+	color:#0078f8;
+	text-decoration:none;
+}
+
+a:hover, a:active {
+	color:#a80020;
+	/* color:#0000fc; */
+	text-decoration:underline;
+}
+
+
+/* ############Image Rules############ */
+
+img.center-book {
+	display:block;
+	margin:0 auto;
+}
+
+figure.right {
+	float:right;
+	margin:0 2% 0.5em 1em;
+	width:45%;
+}
+
+figure.office {
+	margin:5px auto 20px;
+	max-width:350px;
+}
+
+figcaption {
+	font-style:italic;
+	padding-top:10px;
+}
+
+/* ############Table Rules############ */
+
+table {
+	font-size:1.2em;
+	line-height:1.5em;
+	margin:1em auto;
+}
+
+table.grid {
+	margin-left:2%;
+	margin-right:2%;
+}
+
+tr.strong {
+	font-weight:bold;
+}
+
+tr.tan {
+	background:#fce0a8;
+}
+
+tr.gray {
+	background:#d8d8d8;
+	font-weight:bold;
+}
+
+tr.blue {
+	background:#a4eafc;
+}
+
+tr.line td {
+	border-bottom:2px solid black;
+}
+
+td {
+	padding-left:10px;
+	text-align:left;
+	vertical-align:top;
+}
+
+table.grid td {
+	border:1px solid #000;
+	padding-right:10px;
+}
+
+.grade {
+	width:70px;
+}
+
+.points {
+	width:110px;
+}
+
+.level {
+	width:85px;
+}
+
+.rank {
+	width:130px;
+}
+
+.assignment {
+	width:225px;
+}
+
+.center {
+	text-align:center;
+}
+
+.due {
+	width:70px;
+}
+
+.exam {
+	width:60px;
+}
+
+.analysis {
+	width:180px;
+}
+
+/* ##### RESPONSIVE WEB DESIGN OVERRIDES ##### */
+
+@media screen and (max-width:860px) {
+
+	header, nav, article, footer {
+		margin-left:3%;
+		margin-right:3%;
+	}
+}
